@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="UTF-8" />
+        <title>emcAPP</title>
+        <link rel="stylesheet" href="index.css" type="text/css" charset="utf-8"/>
+		<!-- <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8"/> -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+        <!-- <script src="https://kit.fontawesome.com/040595e6f4.js" crossorigin="anonymous"></script> -->
+
+        <script defer src="js/scripts.js"></script> 
+        <!-- <script> require("./renderer.js"); </script> -->
+        <!-- <script defer src="js/preload.js"></script>  -->
+		<!-- <style type="text/css">
+			body { font-family: 'benderregular';}
+		</style> -->
+
+    </head>
+
+    <body onload="">
+        <div class="grid-container">
+
+            <!-- Header -->
+            <div class="item1">
+                <!-- <p>Made by nomad <3</p> -->
+                <div class="header-nav">
+                    <button id="close-btn">X</button>
+                    <button id="max-btn">▢</button>
+                    <button id="min-btn">—</button>
+                </div>
+            </div>
+            
+            <!-- Menu -->
+            <!-- <div class="item2"> 
+            
+            </div> -->
+
+            <!-- Main -->
+            <div class="item3">
+
+                <div class="tab">
+                    <!-- The buttons to switch tab content -->
+                    <div id="tab-tempbox" class="sidebar">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                        <button class="tablinks" onclick="openTab(event, 'Woods');"    id="_server">Woods</button>
+                        <button class="tablinks" onclick="openTab(event, 'Factory')"   id="_townless">Factory</button>
+                        <button class="tablinks" onclick="openTab(event, 'Customs')"      id="_track">Customs</button>
+                        <button class="tablinks" onclick="openTab(event, 'Interchange')"     id="_nation">Interchange</button>
+                        <button class="tablinks" onclick="openTab(event, 'Shoreline')"       id="_town">Shoreline</button>
+                        <button class="tablinks" onclick="openTab(event, 'Reserve')"   id="_resident">Reserve</button>
+                        <button class="tablinks" onclick="openTab(event, 'Lighthouse')"       id="_vote">Lighthouse</button>
+						<button class="tablinks" onclick="openTab(event, 'Labs')" id="_vote">Labs</button>
+
+                        <!-- footer of menu -->
+                        <div id="tab-tempbox">
+                            <box><p>Made by nomad <3</p></box>
+                        </div>
+                    </div>
+
+                    <button class="openbtn" onclick="openNav()">☰</button>  
+                
+
+                </div>
+
+                <!-- The different maps content -->
+
+                <!-- Woods -->
+                <div class="woods" id="Woods" class="tabcontent"> 
+                    <p>Made by nomad ----- 1</p>
+                </div>
+
+                <!-- Factory -->
+                <div id="Factory" class="tabcontent">
+                    <p>Made by nomad ----- 2</p>
+                </div>
+
+                <!-- Customs -->
+                <div id="Customs" class="tabcontent">
+                    <p>Made by nomad ----- 3</p>
+                </div>
+
+                <!-- Interchange -->
+                <div id="Interchange" class="tabcontent">
+                    <p>Made by nomad ----- 4</p>
+                </div>
+
+                <!-- Shoreline -->
+                <div id="Shoreline" class="tabcontent">
+                    
+                </div>
+              
+                <!-- Reserve -->
+                <div id="Reserve" class="tabcontent">
+                    
+                </div>
+            
+                <!-- Lighthouse -->
+                <div id="Lighthouse" class="tabcontent">
+                   
+                </div>
+
+				<!-- Labs -->
+                <div id="Labs" class="tabcontent">
+                   
+                </div>
+
+            </div>  
+        </div>
+        
+        <script src="./js/renderer.js"></script>
+    </body>
+</html>
